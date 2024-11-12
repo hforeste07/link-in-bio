@@ -1,9 +1,0 @@
-main{
-  margin: 0 auto;
-}
-img{
-  width: 50px;
-}
-.image-row{
-  margin: 0 auto;
-}

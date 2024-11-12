@@ -3,6 +3,6 @@ main{
 
 }
 .image-row{
-  height: 450px
+  height: 450 px
   margin: 0 auto;
 }

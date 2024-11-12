@@ -7,10 +7,15 @@
    <title>Thru Hiking the Appalachian Trail</title>
 
    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    <style>
       html{
         min-height: 100%;
+      }
+      .main-container{
+        max-width: 640px;
+        margin:auto;
       }
       body{
         min-height: 100%;
@@ -37,13 +42,34 @@
 
       .social-icons-row{
         display: flex;
+        margin-bottom: 30px;
+        justify-content: space-around;
       }
 
       .item{
         background-color: rgba(51, 117, 17, 0.5);
+        margin-bottom: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
       }
 
-  </style>
+      .name-row{
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+      .image-row{
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      
+      .link-text{
+        text-align: center;
+        flex-grow: 1;
+      }
+
+</style>
 </head>
 
 <main>
@@ -59,15 +85,15 @@
       </div>  <!-- closing the name-row-->
 
       <div class="social-icons-row">
-        <p><img class="icon" src="thumbnails/avfzpcbox.webp" alt=""><a href="https://www.linkedin.com/in/heatherforester" target=":_blank">
+        <p><img class="icon" src="thumbnails/avfzpcbox.webp" alt=""><a class=""link-text" href="https://www.linkedin.com/in/heatherforester" target=":_blank">
           Linkedin
         </a></p>
 
-        <p><img class="icon" src="thumbnails/round-black-facebook-fb-logo-icon-sign-701751695134781upkxjlqwck.png" alt="""><a href="https://https://www.facebook.com/h.forester7/" target="_blank">
+        <p><img class="icon" src="thumbnails/round-black-facebook-fb-logo-icon-sign-701751695134781upkxjlqwck.png" alt="""><a class="link-text" href="https://https://www.facebook.com/h.forester7/" target="_blank">
           Facebook
         </a></p>
 
-        <p><img class="icon" src="thumbnails/Logo Instagram Social Media PNG - Free Download.jpg" alt=""><a href="https://https://www.instagram.com/meteor_mercury/" target="_blank">
+        <p><img class="icon" src="thumbnails/Logo Instagram Social Media PNG - Free Download.jpg" alt=""><a class="link-text" href="https://https://www.instagram.com/meteor_mercury/" target="_blank">
           Instagram
         </a></p>
       </div> <!-- closing the social-icons-row -->
@@ -76,7 +102,7 @@
         <p>Where to find my blogs!</p>
 
         <div class="item">
-            <p><a href="" taget=""_blank">
+            <p><a class="link-text" href="" taget=""_blank">
               The Trek
             </a></p>
         </div> <!-- closing item 1 -->

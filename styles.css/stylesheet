@@ -3,7 +3,7 @@ main{
 
 }
 img{
-  width: 150px;
+  width: 50px;
 }
 .image-row{
   margin: 0 auto;

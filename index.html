@@ -8,11 +8,20 @@
 
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=Shrikhand&display=swap" rel="stylesheet">
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
 
    <style>
-    *{
-      border: red 1px dashed;
-    }
+    
       html{
         min-height: 100%;
       }
@@ -25,12 +34,26 @@
         min-height: 100%;
         padding-top: 40px;
         padding-bottom: 40px;
-        margin: 0;
-        color: darkblue;
-        background: linear-gradient(180deg, #dfd408, #bec501, #9fb602, #82a606, #67960b, #4d850f, #337511, #196412);
-        font-family: "helvetica";
+        color: rgb(18, 54, 94);
+        background: linear-gradient(0deg, #8d6f45, #987e57, #a48d69, #b09c7c, #bbac8f, #c8bca3, #d4cbb7, #e1dbcc);
       }
-      
+      h1{
+        font-family: shrikhand;
+        font-weight: 200;
+      }
+      h2{
+        font-family: shrikhand;
+        font-weight: 200;
+      }
+      p{
+        font-family: "Fanwood Text", serif;
+        font-weight: 800;
+        font-style: normal;
+        color: rgb(18, 54, 94);
+      }
+      a{
+        text-decoration: none;
+      }
       .boots{
         width: 250px;
         height: 250px;
@@ -39,23 +62,29 @@
         
       }
       .icon{
-        width: 20px;
-        height: 20px;
+        width: 50px;
+        height: 50px;
         object-fit: cover;
-        border-radius: 20px;
-        justify-items: center;
+        border-radius: 50px;
+        justify-items:flex-start
       }
 
       .social-icons-row{
         display: flex;
         margin-bottom: 30px;
         justify-content:space-around;
+        align-items: center;
       }
 
       .item{
         margin-bottom: 20px;
         display: flex;
         align-items: center;
+        background-color: rgba(255, 255, 255, 0.75);
+        border-radius: 1000px;
+        padding: 2px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px rgba(18, 54, 94, 0.5);
       }
 
       .name-row{
@@ -76,7 +105,6 @@
         text-align: center;
         flex-grow: 1;
       }
-
 </style>
 </head>
 
@@ -92,35 +120,48 @@
       </div>  <!-- closing the name-row-->
 
       <div class="social-icons-row">
-          <img class="icon" src="thumbnails/avfzpcbox.webp" alt="">
-          <a class="link-text" href="https://www.linkedin.com/in/heatherforester" target=":_blank">
-          Linkedin
-          </a>
+        <a href="https://www.linkedin.com/in/heatherforester/" target=":_blank">  
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
         
 
+        <a href="https://www.facebook.com/h.forester7/" target="_blank">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
         
-          <img class="icon" src="thumbnails/round-black-facebook-fb-logo-icon-sign-701751695134781upkxjlqwck.png" alt="">
-          <a class="link-text" href="https://https://www.facebook.com/h.forester7/" target="_blank">
-          Facebook
-          </a>
-        
+        <a href="https://www.instagram.com/meteor_mercury/" target="_blank">
+          <i class="fa-solid fa-hashtag"></i>
+        </a>
 
-       
-          <img class="icon" src="thumbnails/Logo Instagram Social Media PNG - Free Download.jpg" alt="">
-          <a class="link-text" href="https://https://www.instagram.com/meteor_mercury/" target="_blank">
-          Instagram
-          </a>
-       
+        <a href="https://github.com/hforeste07" target="_blank">
+          <i class="fa-brands fa-github-alt"></i>
+        </a>
       </div> <!-- closing the social-icons-row -->
 
       <div class="links-row">
-        <p>Where to find my blogs!</p>
+        <h2>Where to find my blogs!</h2>
 
         <div class="item">
-            <a class="link-text" href="https://thetrek.co/author/heather-forester/" taget=""_blank">
-              The Trek
+            <img class="icon" src="thumbnails/favicon.png" alt="">
+            <a class="link-text" href="https://www.thetrek.co/heather-forester/" target="_blank">
+              <p>The Trek</p>
             </a>
-        </div> <!-- closing item 1 -->
+        </div>  <!-- closing item 1 -->
+        
+        <div class="item">
+            <img class="icon" src="thumbnails/dummy-icon.jpg" alt="">
+            <a class="link-text" href="https://www.instagram.com/meteor_mercury/" target="_blank">
+              <p>Dummy Link 1</p>
+            </a>
+        </div> <!-- closing item 2 -->
+
+        <div class="item">
+            <img class="icon" src="thumbnails/dummy-icon.jpg"" alt="">
+            <a class="link-text" href="https://www.instagram.com/meteor_mercury/" target="_blank">
+              <p>Dummy Link 2</p>
+            </a>
+        </div> <!-- closing item 3 -->
+
       </div><!-- closing the links row -->
     </div>  <!--closing the main-container-->
   </body>

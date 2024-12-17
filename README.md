@@ -1,3 +1,1 @@
-# static-html-template
-
-Use this template to create static HTML websites and deploy them on Render.
+This project is a link in bio page that will contain links to all my blogs for my followers while I am on the Appalachian Trail.  Currently there is only blog page, but I am working on getting more blogs created with different focusses.  There are two dummy links that will take you to my instagram by default.  As more links come in I will update those dummy links.
